@@ -36,7 +36,7 @@ for n = 1:size(rawStorm,1)
                 yPositions(m,tick) = rawStorm(n,3);
                 sigma(m,tick) = rawStorm(n,4);
                 photons(m,tick) = rawStorm(n,5);
-                background(m,tick) = rawStorm(n,6);
+                background(m,tick) = rawStorm(n,7);
                 tmpM = m;
                 tick = tick+1;
             else 
@@ -46,7 +46,7 @@ for n = 1:size(rawStorm,1)
                 yPositions(m,tick) = rawStorm(n,3);
                 sigma(m,tick) = rawStorm(n,4);
                 photons(m,tick) = rawStorm(n,5);
-                background(m,tick) = rawStorm(n,6);
+                background(m,tick) = rawStorm(n,7);
                 tick = tick+1;
             end
         end
